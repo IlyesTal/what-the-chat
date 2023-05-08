@@ -12,7 +12,6 @@ from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
 
 from openai_request import chatgpt_reply, chatgpt_reply_premium, reply_audio, reply_dalle
-from get_paid_members import update_paid_members
 
 
 load_dotenv()
