@@ -1,0 +1,7 @@
+Flask==2.2.3
+openai==0.27.0
+twilio==7.16.4
+gunicorn==19.6.0
+stripe==5.2.0
+python-dotenv==1.0.0
+pydub
