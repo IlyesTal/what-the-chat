@@ -48,6 +48,11 @@ If you want to propose your ChatGPT based model as a service on Whatsapp you can
 - .env: Your Twilio and OpenAI API credentials
 - requirements.txt: The required Python packages for the project
 
+## To-Do
+
+- Database connexion (I used PostgresSQL)
+- Stripe connexion
+
 ## License
 This project is open-source and available under the MIT License
 
