@@ -24,7 +24,6 @@ client = Client(account_sid, auth_token)
 
 
 def init_members():
-    update_paid_members()
     paid_members_txt = open("./paid_members.txt", 'r')
     list_free_users = [num.replace(".csv","") for num in os.listdir("./csvs/free/")]
     list_paid_users = ["whatsapp:" + line.replace("\n", "") for line in paid_members_txt.readlines()]
