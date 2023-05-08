@@ -32,25 +32,31 @@ Free and premium subscription options.
 
 <pre><code>python app.py</code></pre>
 
-## Usage
+### Usage
 
-Add the Twilio WhatsApp number to your contacts.
-Start a chat with the Twilio WhatsApp number.
-Send messages or audio messages to interact with ChatGPT.
-Premium users can generate images by sending a message starting with /image.
-Files
-app.py: The main Flask application file.
-openai_request.py: Handles OpenAI API requests for chat, audio transcription, and image generation.
-get_paid_members.py: Script to update the list of paid members.
-.env: Your Twilio and OpenAI API credentials.
-requirements.txt: The required Python packages for the project.
-License
-This project is open-source and available under the MIT License.
+- Add the Twilio WhatsApp number to your contacts.
+- Start a chat with the Twilio WhatsApp number.
+- Send messages or audio messages to interact with ChatGPT.
+- Premium users can generate images by sending a message starting with /image.
 
-Contributing
+If you want to propose your ChatGPT based model as a service on Whatsapp you can connect it to Stripe.
+
+## Files
+
+- app.py: The main Flask application file
+- openai_request.py: Handles OpenAI API requests for chat, audio transcription, and image generation
+- .env: Your Twilio and OpenAI API credentials
+- requirements.txt: The required Python packages for the project
+
+## License
+This project is open-source and available under the MIT License
+
+## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-Contact
+## Contact
+
 If you have any questions or suggestions, feel free to reach out at hello@what-the-chat.com.
